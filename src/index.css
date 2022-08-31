@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.waves-up {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: repeat-x;
+  object-fit: contain;
+  background-color: #f5fcff;
+  background-position: center center;
+  background-image: url("./assets/images/waves-up.PNG");
+}
+
+.waves-down {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: repeat-x;
+  object-fit: contain;
+  background-color: #f5fcff;
+  background-position: center center;
+  background-image: url("./assets/images/waves-down.PNG");
+}
+
+.mission {
+  display: block;
+  width: 100%;
+  height: 180px;
+  background: repeat-x;
+  object-fit: contain;
+  background-color: #f5fcff;
+  background-position: center center;
+  background-image: url("./assets/images/mission-wave.PNG");
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
